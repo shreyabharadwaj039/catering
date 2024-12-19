@@ -1,0 +1,41 @@
+.nav-link {
+    color: #a17d60 !important; /* Force the color change */
+  }
+.main {
+    width: calc(100% - 10px); /* Adjust based on logo width and padding */
+     /* Maintain aspect ratio */
+  height: 236px;
+}
+.main_img {
+  position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#986c4a ;
+    background-color:#F8F7F6;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 85%;
+}
+@media (max-width: 768px) {
+  .main_img{
+    font-size: 15px;
+    top: 58%;
+  }
+}
+.images{
+  padding-top: 5px;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  color: #986c4a;
+}
+body{
+  background-color:#F8F7F6;
+  font-family: 'Roboto Slab', serif;
+}
